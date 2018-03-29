@@ -1,3 +1,6 @@
+This repo contains examples for running scala and spark with sbt and jupyter notebooks.  
+  
+  
 to build and run sbt project:  
   
 *** FOR: helloWorld ***  
