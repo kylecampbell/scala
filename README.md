@@ -26,4 +26,4 @@ submit job to cluster:
 $SPARK_HOME/bin/spark-submit --master spark://YOUR-COMPS-NAME.local:7077  
   
 *** FOR: sparkRandomForest ***  
-
+1. meant to be ran in aws
