@@ -86,7 +86,7 @@ object MushroomModel {
         // import spark.implicits._
         //val cm = Seq(("tn", trueneg), ("fp", falsepos), ("fn", falseneg), ("tp", truepos)).toDF("name", "value")
         //val df = spark.createDataFrame(cm)
-        //df.write.save("s3://cs696/output/mushroomConfusion")
+        //df.write.save("s3://BUCKETNAME/output/mushroomConfusion")
 
         val cm = new PrintWriter(new File("s3://BUCKETNAME/output/mushroomConfusion"))
         cm.write(f"$trueneg $falsepos\n[$falseneg]  $truepos")
